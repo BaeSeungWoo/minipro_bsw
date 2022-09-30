@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="projectstyle.css" />
     <script src="search.js">
     </script>
-    <title>signup</title>
+    <title>main</title>
 </head>
 
 <body>
@@ -36,7 +36,8 @@
             </div>
         </div>
     </header>
-    <div id=grid>
+
+    <div id=grid_main>
         <div id=side>
             <ol>
                 <li>dogs</li>
@@ -46,27 +47,21 @@
                     <li><a href=dog3.html>도베르만</a></li>
                 </ul>
                 <li>게시판</li>
-                    <ul>
-                        <li><a href='' onclick="alert('로그인을 하셔야합니다.')">자유게시판</a></li>
-                        <li><a href='' onclick="alert('로그인을 하셔야합니다.')">공지사항</a></li>
-                    </ul>
+                <ul>
+                    <li><a href='' onclick="alert('로그인을 하셔야합니다.')">자유게시판</a></li>
+                    <li><a href='' onclick="alert('로그인을 하셔야합니다.')">공지사항</a></li>
+                </ul>
             </ol>
         </div>
         <div>
-            <p style="margin-top: 15%;">
-                id 설정 <input type="search" value="id 입력">
-            </p>
-            <p>
-                pw 설정 <input type="search" value="pw 입력">
-            </p>
-            <p style="margin-bottom: 15%;">
-                pw 확인 <input type="search" value="pw 설정">
-            </p>
+            <h3>dog search에 오신것을 환영합니다. 게시판을 사용하시려면 로그인을 해주세요. 강아지 정보는 로그인을 하지 않아도 확인 가능합니다.</h3>
             <div class="text-end">
-                <button class="btn btn-warning" onclick="location.href = 'index.html'">뒤로가기</button>
-                <button class="btn btn-warning" onclick="location.href = 'login.html'">회원가입</button>
+                <button class="btn btn-warning" onclick="location.href = 'login.html'">로그인</button>
+                <button class="btn btn-warning" onclick="location.href = 'sign_up.html'">회원가입</button>
             </div>
         </div>
+        <img src="메인그림.jpg" width="100%">
+    </div>
 </body>
 
 </html>

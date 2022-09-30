@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-
 function searchDog() {
     if (document.querySelector('#search_text').value === '사모예드') {
         window.location.href = 'dog1.html';
