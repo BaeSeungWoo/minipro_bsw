@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projectstyle.css" />
+    <script src="search.js">
+    </script>
+    <title>Welsh Corgi</title>
+</head>
+
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <i class="bi bi-emoji-laughing-fill"></i>
+                <a href="main.html" class="nav-link px-2 text-white">dog
+                    information
+                </a>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input id="search_text" type="search" class="form-control form-control-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+                <div class="text-end">
+                    <button id="search_button" class="btn btn-outline-light me-2" onclick="searchDog()"><i
+                            class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id=grid>
+        <div id=side>
+            <ol>
+                <li>dogs</li>
+                <ul>
+                    <li><a href=dog1.html>사모예드</a></li>
+                    <li><a href=dog2.html>웰시코기</a></li>
+                    <li><a href=dog3.html>도베르만</a></li>
+                </ul>
+                <li>게시판</li>
+                    <ul>
+                        <li><a href='' onclick="alert('로그인을 하셔야합니다.')">자유게시판</a></li>
+                        <li><a href='' onclick="alert('로그인을 하셔야합니다.')">공지사항</a></li>
+                    </ul>
+            </ol>
+        </div>
+        <div>
+            <h1>웰시코기</h1>
+            <div class="text-end">
+                <button class="btn btn-warning" onclick="location.href = 'main.html'">메인으로</button>
+            </div>
+            <img src="웰시코기.jpg" style="margin: 10px;" width="30%">
+            <h6>
+                <ol>
+                    <li>개요</li>
+                    영국 웨일스 지역 원산의 목양견 계통의 개 품종의 하나.
+                    영국 왕실에서 키우던 개로 유명하며, 국내에는 80년대 말부터 애견 백과를 통해 간접적으로 알려지기 시작하다가 2010년대 중반부터 유명해지기 시작해 지금은 대중적으로 상당한
+                    인기를 자랑하는 종이다.
+                    <li>특징</li>
+                    영국 왕실의 개라는 별칭도 있고, 엘리자베스 2세 여왕도 평생 50마리 이상 길렀다. 한때는 12마리씩이나 길러서 다이애나 왕세자비가 "움직이는 카펫"이라고 별명을 붙이기도 했다고
+                    한다.
+                    원래 웰시 코기는 농가에서 경비견이나 목양견 등으로 사육되었다. 키가 작고 다리가 짧으면서도 튼튼하여 소나 양의 아래를 쏙쏙 잘도 다니며 시킨 일을 완벽히 해냈다. 밑에서 다시
+                    서술되지만 애완견 품종 중에서는 매우 영리하다. 키가 작음도 웰시 코기에게는 단점이 아니라 장점이다. 사진에 따라 꼬리가 거의 없어 보이는데, 대부분은 목양견으로 키우기 위해
+                    일부러 단미를 했던 것이고, 이후 유럽에서 관련 법이 재정되기 전까지, 그리고 현재 한국처럼 관련법이 없는 나라에서는 거의 관습적으로 미용을 위해 단미를 한 것이다. 코기 외에도
+                    미용 이외의 이유로 새끼일 때 꼬리를 자르는 견종들이 있지만 최근 들어선 동물 학대라는 의견 때문에 자르지 않고 그대로 두는 경우도 많다.
+                    성격은 우선 극단적으로 말한다면 겁이 없다. 하룻강아지 범 무서운 줄 모르는 타입으로, 상당히 적극적이고 호기심이 많은 편이다. 개 스스로가 난관에 닥쳤을 때 스스로 판단하여
+                    해결하기 때문에 지능도 높다. 사람과 스킨쉽하기를 무척이나 좋아하고 애교도 많은 데다 어린이에 대한 친밀도가 특히 높다. 무엇보다도 주인에 대한 충성심은 전 견종 통틀어 최상위권.
+                    장점으로 충성심이 최상위권이라는걸 꼽았는데 충성심이 높다는것은 소유욕이 강하고 사회성이 떨어진다는 것이다.[7] 그리고 머리가 좋은 강아지는 사고도 창의적으로 잘 친다. 이 모든
+                    점이 합쳐질 경우 분리불안 증세에 걸리면 모든것을 파괴할 수 있다. 이 점을 특히 유의하고 분리불안에 빠지지 않도록 노력하는게 이 견종을 키울 때 특히 중요하다.
+                    <li>외형</li>
+                    다리가 짧기 때문에 소형견이라고 착각하는 사람들이 많지만, 신장 25~32 cm, 체중 10~17 kg 정도로 중형견이다. 만약 웰시코기 성견을 길가다 보게 된다면 생각보다 체구가
+                    큰 개라는걸 금방 알 수 있다. 사실상 진돗개 크기에 다리만 짧은, 체구만 소형견 급인 중형견인 셈이자 잘 안 알려져 있지만 사모예드나 포메라니안 등과 친연 관계가 가깝다.
+                    머나먼 옛날 켈트족들이 키웠는데, 원산지는 이름에서도 알 수 있듯이 영국 웨일스(Welsh) 지방이다. 이름을 분석하면 welsh(웨일스)의 corgi(다리가 짧고 코가 뾰족한
+                    작은 개)이다. 펨브로크(Pembroke)와 카디건(Cardigan) 두 종이 있는데, 현재 한국에 있는 웰시 코기의 대부분은 펨브로크이다. # 원래는 단일종으로 간주했지만
+                    1930년부터 세분하여 상기한 두 종으로 분류했으며, 카디건이 펨브로크보다 체구가 조금 크고 귀가 넓으며 모색도 훨씬 다양하다.
+                    펨브로크 종이 꼬리가 짧다고 알려졌지만 실제로는 대부분 어릴 적에 단미 수술을 받아서 꼬리가 잘린 것이다. 본래 이유는 웰시 코기는 목양견의 역할을 하는데 가축이나 말 등에게
+                    꼬리를 밟혀 크게 부상을 입을 수 있기 때문에 단미를 한 것이다.[3] 물론 단미 안 한 코기들도 볼 수 있다. 실제 자연적으로 단미된 펨브로크 웰시 코기는 없는 것과 마찬가지다.
+                    그런데 앞선 웰시코기들이 죄다 단미를 하니까 웰시코기를 처음 기르는 사람들도 단순히 미용 목적 내지는 관습적으로 단미를 진행한 경우가 많고, 그러면 이번 세대의 웰시코기들도 거진
+                    단미 상태니까 다음 세대도 똑같은 상황이 되고는 한다.
+                    문제는 단미를 진행하는 시설의 위생 상태가 대부분 열악하고 강아지들이 어리다는 이유로 마취 없이 단미를 진행해 고통도 크다고 한다. 그래서 유럽 일부에서는 목양용이나 의학적
+                    소견없이 단지 미용 목적으로만 단미를 진행하는 것은 불법으로 규정했다. 한국에서 이런 사실이 알려지자 단미에 대한 비판적 여론이 높아져서 단미를 하지 않는 추세이다. 하지만
+                    국내법으로는 불법이 아니다. 동물보호법 제11조(동물의 수술)에 "거세, 뿔 없애기, 꼬리 자르기 등 동물에 대한 외과적 수술을 하는 사람은 수의학적 방법에 따라야 한다."고만
+                    되어 있기 때문에 수의사가 진행하는 수술은 법을 어긴 것이 아니기 때문이다. 이에 15년도에 개정 발의안이 나오긴 했지만 5년이 지난 지금도 무소식이다.
+                    다만 이런 사실을 모르거나 관습적으로 하는 것인 줄 알고 단미를 진행한 견주들도 있기 때문에, 단미를 했다는 것만으로 무작정 그들에게 욕설이나 명예훼손을 해서는 안 된다.
+                    <br><strong>출처 : 나무위키</strong>
+                </ol>
+            </h6>
+        </div>
+    </div>
+</body>
+
+</html>

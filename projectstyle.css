@@ -1,0 +1,54 @@
+* {
+    font-family: 'Gugi', cursive;
+}
+
+
+h1 {
+    margin: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 15%;
+    margin-top: 40%;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin-top: 5%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#grid_main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+#side {
+    background-color: rgb(224, 224, 224);
+}
+
+#side ol {
+    margin-top: 5%;
+}
+
+#side ol a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media(max-width :800px) {
+    #grid_main {
+        display: block;
+    }
+    #side {
+        display: none
+    }
+}

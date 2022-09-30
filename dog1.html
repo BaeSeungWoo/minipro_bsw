@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projectstyle.css" />
+    <script src="search.js">
+    </script>
+    <title>samoyed</title>
+</head>
+
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <i class="bi bi-emoji-laughing-fill"></i>
+                <a href="main.html" class="nav-link px-2 text-white">dog
+                    information
+                </a>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input id="search_text" type="search" class="form-control form-control-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+                <div class="text-end">
+                    <button id="search_button" class="btn btn-outline-light me-2" onclick="searchDog()"><i
+                            class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id=grid>
+        <div id=side>
+            <ol>
+                <li>dogs</li>
+                <ul>
+                    <li><a href=dog1.html>사모예드</a></li>
+                    <li><a href=dog2.html>웰시코기</a></li>
+                    <li><a href=dog3.html>도베르만</a></li>
+                </ul>
+                <li>게시판</li>
+                    <ul>
+                        <li><a href='' onclick="alert('로그인을 하셔야합니다.')">자유게시판</a></li>
+                        <li><a href='' onclick="alert('로그인을 하셔야합니다.')">공지사항</a></li>
+                    </ul>
+            </ol>
+        </div>
+        <div>
+            <h1>사모예드</h1>
+            <div class="text-end">
+                <button class="btn btn-warning" onclick="location.href = 'main.html'">메인으로</button>
+            </div>
+            <img src="사모예드.jpg" style="margin: 10px;" width="30%">
+            <h6>
+                <ol>
+                    <li>개요</li>
+                    러시아의 시베리아 지역이 원산인 개의 일종. 대형견에 속한다.
+                    <li>특징</li>
+                    러시아의 시베리아 툰드라 지방에서 생활하던 사모예드족이 기르던 개로, 사역견으로써 사냥, 썰매 등 척박한 환경에서 각종 노동을 거드는 개였다. 우리네 조상들이 품을 팔 듯, 이
+                    녀석들도 일거리 있는 집안으로 서로 빌려주고 빌려오고를 수백, 수천 년 반복하여 개량 되어왔으며, 알래스칸 말라뮤트, 시베리안 허스키 역시 비슷한 궤를 달리고 있다.
+                    본래 사모예드족의 사역견이던 사모예드는 유럽에서 극지 탐험이 유행하던 20세기 초에 극지 탐험용 썰매개를 극지 원주민들에게서 배우는 과정에서 유럽으로 들어오게 되었다. 영국에서
+                    품종을 확립하는 데 사용된 개 중 하나인 Antarctic Buck은 Carsten Borchgrevink 원정대의 생존자였으며 시드니 동물원에서 발견되어 Kilburn-Scott
+                    씨가 영국으로 데려왔다. 당초 영국 땅을 밟은 사모예드는 대부분 흑색모와 갈색모였지만, 인기가 많았던 백색모의 사모예드만을 한정적으로 교배한 결과 현재 사모예드하면 떠오르는
+                    백색모종이 압도적으로 많아지게 되었다. 그리고 1912년 영국에서 정식 견종으로 등록되었다.
+                    도둑이 들면 그 도둑이랑도 놀아줄 정도라는 말이 있을 정도로 대인 경계심이 적기에, 사람을 대상으로 하지 않는 경비견으로서 믿음직하다. 성인인 주인뿐만 아니라 아기들한테도 놀아줄
+                    정도로 나긋나긋하고 긍정적인 에너지가 넘치는 견종이다.
+                    수다쟁이라는 별명이 있는데 같은 사모예드는 종끼리 만나면 서로 대화를 자주한다. 유난히 다른 종하고는 그렇게 많이 대화하지는 않는다.
+                    성격이 워낙 좋지만 크기가 커서 키우기 난해하다고 생각했는지 일본에선 따로 품종 개량을 해서 소형화된 사모예드를 키우는데, 이것은 재패니즈 스피츠라고 따로 부른다.
+                    <li>외형</li>
+                    커다랗고 풍성한 털이 특징이다. 덕분에 몸집이 많이 커 보인다. 원산지나 개체에 따라 주둥이가 넓고 전체적으로 북극곰을 닮은 외모를 한 경우가 있는가 하면, 날렵한 주둥이에
+                    얼굴이 작고 늑대나 여우를 닮은 녀석들도 있어서 개체에 따라 전혀 다른 견종으로 보이기도 한다. 대체로 암컷이 더 늑대스럽게 생긴 경향이 있는 듯.
+                    털 색은 여러 가지이나 그중에서도 새하얀 백색 사모예드가 유명하다. 개마다 색은 조금씩 달라서 백색, 크림색 혹은 거의 황색에 가까운 개체도 있다. 가늘고 부드러운 털이
+                    촘촘하게 이중으로 깔려있다. 털갈이 때 아주 휘날린다. 털이 하얗고 노는 것도 곱게 놀지 않다 보니 자주 씻겨줘야 한다. 털 말리는데만도 하루가 꼬박 걸리고, 애견 카페나 샵에서도
+                    목욕 시간을 넉넉히 주거나(4시간 이상) 아예 뒤 타임 목욕 예약을 안 받기도 한다.
+                    시베리안 허스키처럼 귀가 쫑긋하고, 사모예드 역시 시베리아가 원산지. 스피츠 계열의 종이다. 여담이지만 사모예드의 털이 이렇게 복슬복슬하게 된 데에는 사모예드족들이 추운 북극권에서
+                    끌어안고 자려고 개량된 것이라는 의견이 압도적이다. 낮에는 썰매를 끌게 하고 밤에는 여러 마리를 곁에 두고 안고 자면 부드러우면서도 따뜻하게 보온이 되다 보니 이렇게 개량이
+                    되었다는 것이다. 옷을 만들 때 사모예드의 털로 천을 짜거나 안감을 대는 경우도 있다.
+                    그도 그럴 게 털 빗질하는 영상을 보면 무슨 양이 아닌가 싶을 정도로 털이 많이 나온다. 또한 이 영상을 보면 실제로 물레를 다룰 줄만 알면 털을 모아 실을 만들어 옷을 짓는
+                    게 불가능하지는 않은 모양이다.
+                    늘 배시시 웃고 있는 것 같은 표정을 하고 있다. 이 때문에 영어권에서 얻은 별명들 중 하나가 스마일링 새미(Smiling Sammy).
+                    새끼 때 사모예드는 타의 추종을 불허하는 귀여움을 자랑한다. 심지어 사모예드를 작게 개량한 재패니즈 스피츠나 포메라니안 새끼들이 묘하게 치와와처럼 눈이 튀어나와 있어 외모를
+                    깎아먹는 데 반해, 사모예드는 말 그대로 검은 점 세개가 박힌 솜뭉치 그 자체라 그야말로 최강의 귀여움을 자랑한다.
+                    문제는 이 새끼 시절이 엄청 짧고, 하루하루 거의 진화 수준으로 성장하는 데다가 후술하겠지만 사모예드는 견종 중 성격 제외하고 사육난이도 최상위권의 견종이라서 새끼 때 외모만
+                    보고 혹해서 사왔다가 너무 빨리 커서 감당을 못해 유기하는 경우가 종종 있다는 것이다. 특히 가장 못생기고 가장 사고도 많이 치는 생후 5~6개월, 속칭 '원숭이 시기' 때 파양이
+                    제일 많이 되는 편. 즉 키우기 쉽고 귀여운 시기만 잠깐 키웠다가 덩치가 커지고 키우기 어려우니 그만 키우겠다는 심보다.
+                    그 웃는 얼굴에 새하얀 털 때문에 무슨 귀엽게 생긴 북극곰 새끼 같기도 하고, 성격이 무난하고 친절한 데다가 진중한 느낌의 다른 사역견과는 달리 나름 애교도 잘 떠는 편이다.
+                    충성심도 없는 편이 아니어서 이 정도 크기의 개 중에서는 선호도가 높다. 그러나 너무 공격성이 없어서 집을 지키는 용도로는 부적합하다.
+                    <br><strong>출처 : 나무위키</strong>
+                </ol>
+            </h6>
+        </div>
+    </div>
+</body>
+
+</html>
